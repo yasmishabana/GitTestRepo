@@ -10,6 +10,19 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title:const Text("Git Example"),
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Center(
+              child: Container(child:Text("Git") ,),
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
