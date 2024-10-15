@@ -14,9 +14,13 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         title:const Text("Git Example"),
       ),
-      body:const SingleChildScrollView(
+      body: SingleChildScrollView(
         child: Column(
-          children: [],
+          children: [
+            Center(
+              child: Container(child:Text("Git") ,),
+            )
+          ],
         ),
       ),
     );
