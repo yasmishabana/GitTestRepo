@@ -18,7 +18,9 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           children: [
             Center(
-              child: Container(child:Text("Git") ,),
+              child: Container(
+                color: Colors.blueGrey,
+                child:const Text("Git") ,),
             )
           ],
         ),
